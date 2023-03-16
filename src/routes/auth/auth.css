@@ -1,0 +1,16 @@
+
+.Authentification {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    border: solid thin black;
+}
+
+.SignIn button, .SignUp button {
+    width: 150px !important;
+    font-size: large;
+}
+
+.Login {
+    background-color: white;
+}

@@ -1,0 +1,101 @@
+/* Button Style */
+
+.Button button {
+    background-color: #BB000E;
+    width: auto;
+    height: auto;
+    transition: background-color 0.2s;
+    padding: 6px;
+}
+
+.Button button:hover, .Button button label:hover {
+    background-color: #e90313;
+    cursor: pointer;
+}
+
+.Button button label {
+    color: white;
+}
+
+/* Input Styles */
+
+.Input {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 11px;
+}
+
+.InputLabel {
+    display: flex;
+}
+
+.Input input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.Input .FontAwesomeIcon {
+    color: #BB000E;
+    opacity: 0.3;
+}
+
+.Input input:focus {
+    outline: none;
+}
+
+/* Select Input Styles */
+
+.SelectInput {
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+.SelectInput select {
+    border: none;
+    border-bottom: solid thin #BB000E;
+}
+
+.SelectInput select:focus {
+    outline: none;
+}
+
+/* SearchBar Styles */
+
+.SearchBar {
+    background-color: #2C2C2C;
+    border: none;
+    border-radius: 16px;
+    width: fit-content;
+    display: flex;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.SearchBar input {
+    border: none;
+    background-color: #2C2C2C;
+}
+
+.SearchBar input {
+    border: none;
+    color: white;
+}
+
+.SearchBar input:focus {
+    outline: none;
+}
+
+.SearchBar input:focus::placeholder {
+    color: white;
+}
+
+.SearchBar input:hover::placeholder {
+    color: white;
+}

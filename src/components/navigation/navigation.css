@@ -1,0 +1,14 @@
+/* Header Styles */
+.Header {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #161616;
+    color: white;
+}
+
+.Header span {
+    cursor: pointer;
+    color: #BB000E;
+}
