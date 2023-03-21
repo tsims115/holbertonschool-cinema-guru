@@ -5,6 +5,8 @@ import Authentication from './routes/auth/Authentication';
 import axios from 'axios';
 import Header from './components/navigation/Header'
 
+export const url = 'http://54.157.183.35:8000/';
+
 function App() {
   const [state, setState] = useState({isLoggedIn: false, userUsername: ""})
   useEffect(() => {
